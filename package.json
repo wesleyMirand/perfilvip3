@@ -1,22 +1,25 @@
 {
   "name": "perfilvip3",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleyMirand/perfilvip3.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleyMirand/perfilvip3.js/issues"
+  },
+  "homepage": "https://github.com/wesleyMirand/perfilvip3.js#readme",
   "dependencies": {
-    "next": "12.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "styled-components": "^5.3.5"
-  },
-  "devDependencies": {
-    "eslint": "8.21.0",
-    "eslint-config-next": "12.2.3"
+    "next": "^12.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
