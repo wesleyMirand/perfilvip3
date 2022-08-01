@@ -14,13 +14,14 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   padding: 20px;
-
+  
   @media (max-width: 600px) {
     padding: 5px;
   }
   
   @media (max-width: 760px) {
     flex-direction: column-reverse;
+    justify-content: space-around;
   }
 `;
 
@@ -57,7 +58,7 @@ export const Intro = styled.span`
 `;
 
 export const LinkProjects = styled.button`
-  color: deeppink ;
+  color: black;
   width: 10rem;
   padding: 10px;
   display: flex;
@@ -65,6 +66,7 @@ export const LinkProjects = styled.button`
   margin-top: 20px;
   font-weight: bold;
   svg {
+    color: black;
     font-size: 20px;
   }
 `;
@@ -74,18 +76,14 @@ export const Logo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  
   img {
     width: 25rem;
     height: 25rem;
   }
-
   @media (max-width: 760px) {
     width: 90%;
   }
-
   @media (max-width: 600px) {
-
     img {
       width: 18rem;
       height: 18rem;
